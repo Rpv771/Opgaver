@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            //På typen
+            // På typen
             bool findesFil = System.IO.File.Exists(@"c:\temp\test.txt");    
             Console.Write("Findes fil:\n");
             if (findesFil)
