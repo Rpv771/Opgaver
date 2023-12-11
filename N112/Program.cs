@@ -6,12 +6,12 @@
         {
             KortVærdi kort1Værdi = KortVærdi.To;
             KortKulør kort1Kulør = KortKulør.Hjerter;
-            Console.WriteLine(kort1Kulør.ToString() + " " + kort1Værdi);
+            Console.WriteLine($"{kort1Kulør.ToString()} {kort1Værdi}");
             
             KortVærdi kort2Værdi = KortVærdi.Tre;
             KortKulør kort2Kulør = KortKulør.Ruder;
-            Console.WriteLine(kort2Kulør.ToString() + " " + kort2Værdi);
-            
+            Console.WriteLine($"{kort2Kulør.ToString()} {kort2Værdi}");
+
             Console.WriteLine(Convert.ToInt32(kort2Kulør));
         }
     }
