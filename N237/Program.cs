@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             TreKant t = new TreKant(10, 100);
-            Console.WriteLine($"Areal {t.Areal}");
+            Console.WriteLine($"Areal: {t.Areal}");
         }
     }
 

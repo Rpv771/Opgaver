@@ -10,7 +10,6 @@
 
         }
     }
-
     class Faktura
     {
         public int Nr { get; set; }
